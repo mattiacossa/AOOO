@@ -50,7 +50,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('illa')}
   onMouseLeave={handleTooltipLeave}
-> illa
+> illa,
 </span>
 
 <span
@@ -79,6 +79,13 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
+  onMouseEnter={() => handleTooltipHover('fugae,')}
+  onMouseLeave={handleTooltipLeave}
+> fugae,
+</span>
+
+<span
+  style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('spectans')}
   onMouseLeave={handleTooltipLeave}
 > spectans
@@ -97,7 +104,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('undas')}
   onMouseLeave={handleTooltipLeave}
-> undas
+> undas:
 </span>
 
 
@@ -105,7 +112,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('Fer')}
   onMouseLeave={handleTooltipLeave}
-> Fer
+> "Fer
 </span>
 
 
@@ -113,7 +120,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('pater')}
   onMouseLeave={handleTooltipLeave}
-> pater
+> pater"
 </span>
 
 <span
@@ -128,7 +135,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('opem')}
   onMouseLeave={handleTooltipLeave}
-> opem
+> "opem,
 </span>
 
 
@@ -157,7 +164,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('habetis')}
   onMouseLeave={handleTooltipLeave}
-> habetis
+> habetis;
 </span>
 
 <span
@@ -187,7 +194,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('placui')}
   onMouseLeave={handleTooltipLeave}
-> placui
+> placui,
 </span>
 
 <span
@@ -219,7 +226,7 @@ const Hero = () => {
   style={tooltipStyle}
   onMouseEnter={() => handleTooltipHover('figuram')}
   onMouseLeave={handleTooltipLeave}
-> figuram
+> figuram!"
 </span>
 
 
@@ -275,6 +282,16 @@ const Hero = () => {
   >
     occupat
   </span>
+
+
+
+  <span
+  style={tooltipStyle}
+  onMouseEnter={() => handleTooltipHover('artus')}
+  onMouseLeave={handleTooltipLeave}
+>
+  artus,
+</span>
 
 
 
@@ -488,7 +505,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('illa.')}
+  onMouseEnter={() => handleTooltipHover('illa,')}
   onMouseLeave={handleTooltipLeave}
 >
   illa.
@@ -1159,9 +1176,11 @@ Forze
               </>
             )}
         
+
+        
         
             
-        {tooltipText === 'fugae' && (
+        {tooltipText === 'fugae,' && (
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
@@ -1171,7 +1190,7 @@ Forze
 legato a labore
                 </div>
           
-dalla fatica
+Dalla fatica
        
               </>
             )}
@@ -1232,10 +1251,10 @@ Alle correnti
                 <div className='analisi2'>   <> imper.pres. 2^ps.     </></div>
                 </div>
                 <div className='bordosopra'>
-                (fero)
+                [fĕro], fĕrs, tuli, latum, fĕrre
                 </div>
           
-                [fĕro], fĕrs, tuli, latum, fĕrre
+         Portami
        
               </>
             )}
@@ -1265,7 +1284,9 @@ oh Padre
                 <div className='analisi2'>   <> indic. Pres.     </></div>
                 </div>
                
-          
+                <div className='bordosopra'>
+                [inquam], inquis, inquiī, n.e., n.e
+                </div>
 Disse
        
               </>
@@ -1280,7 +1301,7 @@ Disse
                 <div className='analisi2'>   <> acc. sing.    </></div>
                 </div>
                 <div className='bordosopra'>
-                Compl.ogg. di fer (Opis, Opis)
+                ops  [ops], opis
                 </div>
           
 Aiuto
@@ -1311,7 +1332,7 @@ Se
                 <div className='analisi2'>   <>nom. neut.    </></div>
                 </div>
                 <div className='bordosopra'>
-                (flumen,is. 3^ decl.)
+                (flumen,is) 3^ decl.
                 </div>
           
 Fiumi
@@ -1342,7 +1363,7 @@ Potere
                 <div className='analisi2'>   <> ind.pres 2pp.    </></div>
                 </div>
                 <div className='bordosopra'>
-                (habeo)
+                [hăbĕo], hăbes, habui, habitum, hăbēre
                 </div>
           
 Avete
@@ -1359,10 +1380,10 @@ Avete
                 <div className='analisi2'>   <> pron. Rel. Femm. Abl.s. di causa  </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                Per cui
                 </div>
           
-Forze
+           
        
               </>
             )}
@@ -1374,7 +1395,13 @@ Forze
                 <div className='analisi'>   <> avverbo     </></div>
                
                 </div>
-              
+                <div className='bordosopra'>
+                (nimium, nimii)
+                </div>
+          
+Troppo
+       
+          
           
 
        
@@ -1389,10 +1416,10 @@ Forze
                 <div className='analisi2'>   <>  ind.perf 1^ps.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [plăcĕo], plăces, placui, placitum, plăcēre
                 </div>
           
-Forze
+Piacqui
        
               </>
             )}
@@ -1407,10 +1434,10 @@ Forze
                 <div className='analisi2'>   <> gerund. Dell’abl     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [mūto], mūtas, mutavi, mutatum, mūtāre
                 </div>
           
-Forze
+Mutando
        
               </>
             )}
@@ -1425,10 +1452,10 @@ Forze
                 <div className='analisi2'>   <> imperat. 2^ps.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [perdo], perdis, perdidi, perditum, perdĕre
                 </div>
           
-Forze
+Dissolvendo
        
               </>
             )}
@@ -1441,10 +1468,10 @@ Forze
                 <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (figură, figurae)
                 </div>
           
-Forze
+Figura
        
               </>
             )}
@@ -1454,14 +1481,14 @@ Forze
 {tooltipText === 'Vix' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbio     </></div>
+                <div className='analisi2'>   <> avv. di tempo     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+    Appena
                 </div>
           
-Forze
+
        
               </>
             )}
@@ -1471,13 +1498,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> abl.sing     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (prex, precis)
                 </div>
           
-Forze
+Preghiera
        
               </>
             )}
@@ -1486,14 +1513,14 @@ Forze
 {tooltipText === 'finita' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> participio perf. (ablativo singolare)     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [fīnĭo], fīnis, finii, finitum, fīnīre
                 </div>
           
-Forze
+Finita
        
               </>
             )}
@@ -1506,13 +1533,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <>  nominativo. 3^decl     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (torpŏr, torporis)
                 </div>
           
-Forze
+Un torpore
        
               </>
             )}
@@ -1523,13 +1550,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> agg. nominativo     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (gravis, gravisgrave)
                 </div>
           
-Forze
+Pesante
        
               </>
             )}
@@ -1540,14 +1567,14 @@ Forze
 {tooltipText === 'occupat' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> indic. Pres. sing.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [occŭpo], occŭpas, occupavi, occupatum, occŭpāre
                 </div>
           
-Forze
+Pervade
        
               </>
             )}
@@ -1558,13 +1585,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc.plur, neutro 4^decl   </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (artŭs, artūs)
                 </div>
           
-Forze
+Membra
        
               </>
             )}
@@ -1576,14 +1603,14 @@ Forze
 {tooltipText === 'mollia' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> attributo     </></div>
+                <div className='analisi2'>   <> agg. 2^ classe     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (mollis, mollismolle)
                 </div>
           
-Forze
+Morbido
        
               </>
             )}
@@ -1594,14 +1621,14 @@ Forze
 {tooltipText === 'cinguntur' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> indicativo 3.pp. in forma passiva     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [cingo], cingis, cinxi, cinctum, cingĕre
                 </div>
           
-Forze
+Si fascia
        
               </>
             )}
@@ -1609,11 +1636,11 @@ Forze
 
 
 
-{tooltipText === 'tenui' && (
+{tooltipText === 'tenui libro' && (
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> dativo retto da cinguntur, tenui è attrib. di libro    </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
@@ -1631,13 +1658,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom. pl. Neutro.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (praecordia, praecordiōrum)
                 </div>
           
-Forze
+Petto
        
               </>
             )}
@@ -1646,14 +1673,14 @@ Forze
 {tooltipText === 'libro' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
+                <div className='analisi'>   <> sost. 2^decl     </></div>
                 <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
                 </div>
           
-Forze
+ForzeRIVEDEREEEE
        
               </>
             )}
@@ -1664,13 +1691,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc.sing. compl di stato in luogo figurato.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (frons, frondis)
                 </div>
           
-Forze
+In fogliame
        
               </>
             )}
@@ -1681,13 +1708,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom.pl sogg     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (crīnis, crinis)
                 </div>
           
-Forze
+Capelli
        
               </>
             )}
@@ -1698,13 +1725,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc.pl. compl di stato in luogo figurato.     </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
                 </div>
           
-Forze
+In rami
        
               </>
             )}
@@ -1715,13 +1742,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom.pl neutro    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (brachium], brachii)
                 </div>
           
-Forze
+Braccia
        
               </>
             )}
@@ -1732,14 +1759,14 @@ Forze
 {tooltipText === 'crescunt' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> ind.pres.3pp.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [cresco], crescis, crevi, cretum, crescĕre
                 </div>
           
-Forze
+Crescono
        
               </>
             )}
@@ -1752,13 +1779,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> sogg di haeret, nom. sing.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+            (pes,is)
                 </div>
           
-Forze
+Piede
        
               </>
             )}
@@ -1776,7 +1803,7 @@ Forze
        (vis, roboris) 
                 </div>
           
-Forze
+ForzeRIVEDEREEE
        
               </>
             )}
@@ -1785,14 +1812,14 @@ Forze
 {tooltipText === 'tam' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbio     </></div>
+                <div className='analisi2'>   <> avverbio   </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+   Tanto
                 </div>
           
-Forze
+
        
               </>
             )}
@@ -1802,14 +1829,14 @@ Forze
 {tooltipText === 'velox' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> aggettivo     </></div>
+                <div className='analisi2'>   <> agg, attrib di pes,    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [vēlox], vēlox, vēlox
                 </div>
           
-Forze
+Veloce
        
               </>
             )}
@@ -1820,14 +1847,14 @@ Forze
 {tooltipText === 'pigris' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> aggettivo     </></div>
+                <div className='analisi2'>   <> dat.pl. attrib.di radicibus     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [piger], pigră, pigrum
                 </div>
           
-Forze
+Pigre
        
               </>
             )}
@@ -1840,13 +1867,14 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <>dat.pl.  </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (rādix, radicis)
+
                 </div>
           
-Forze
+In radici
        
               </>
             )}
@@ -1856,13 +1884,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> ind.pres. 3ps.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [haerĕo], haeres, haesi, haesum, haerēre
                 </div>
           
-Forze
+Fissa
        
               </>
             )}
@@ -1874,13 +1902,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc.pl. neutro    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+              (ŏs, ossis)
                 </div>
           
-Forze
+Volto
        
               </>
             )}
@@ -1890,13 +1918,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom. sing.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+               (căcūmĕn, cacuminis)
                 </div>
           
-Forze
+Cima
        
               </>
             )}
@@ -1922,14 +1950,15 @@ Forze
 {tooltipText === 'remanet' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> ind.pres.3ps. </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [rĕmănĕo], rĕmănes, remansi, remansum, rĕmănēre
+       
                 </div>
           
-Forze
+Rimane
        
               </>
             )}
@@ -1940,13 +1969,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom, soggetto    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (nĭtŏr, nitoris)
                 </div>
           
-Forze
+Splendore
        
               </>
             )}
@@ -1957,15 +1986,14 @@ Forze
 {tooltipText === 'unus' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> aggettivo     </></div>
+                <div className='analisi2'>   <> attributo    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [unus], una, unum
                 </div>
           
-Forze
-       
+Solo       
               </>
             )}
 
@@ -1974,14 +2002,14 @@ Forze
 {tooltipText === 'in illa' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbio - compl.stato in luogo figurato     </></div>
+                <div className='analisi2'>   <> Abl.sing.femm.     </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
                 </div>
           
-Forze
+in quella
        
               </>
             )}
@@ -1992,14 +2020,14 @@ Forze
 {tooltipText === 'Hanc' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> pronome dimostrativo     </></div>
+                <div className='analisi2'>   <> acc.sing.femm, compl ogg.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
-                </div>
+                [hic], haec, hoc
+                                </div>
           
-Forze
+Questa
        
               </>
             )}
@@ -2009,14 +2037,14 @@ Forze
 {tooltipText === 'quoque' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbio     </></div>
+                <div className='analisi2'>   <> avverbio    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+  Anche
                 </div>
           
-Forze
+
        
               </>
             )}
@@ -2025,13 +2053,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom.sing.      </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (Phoebus, Phoebi)
                 </div>
           
-Forze
+Febo
        
               </>
             )}
@@ -2041,14 +2069,14 @@ Forze
 {tooltipText === 'amat' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <>  ind.pres. 3ps     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [ămo], ămas, amavi, amatum, ămāre
                 </div>
           
-Forze
+Ama
        
               </>
             )}
@@ -2058,14 +2086,14 @@ Forze
 {tooltipText === 'positaque' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> part,perf. - ablativo singolare   </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [pōno], pōnis, posui, positum, pōnĕre
                 </div>
           
-Forze
+Posata
        
               </>
             )}
@@ -2076,13 +2104,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> compl.di stato in luogo     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (stīpĕs, stipitis)
+
                 </div>
-          
-Forze
+          Sul tronco
        
               </>
             )}
@@ -2093,14 +2121,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> abl sing,femm    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (dextră, dextrae)
                 </div>
           
-Forze
-       
+Destra
               </>
             )}
 
@@ -2108,14 +2135,14 @@ Forze
 {tooltipText === 'sentit' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> ind.3ps.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [sentĭo], sentis, sensi, sensum, sentīre 
                 </div>
           
-Forze
+Sente
        
               </>
             )}
@@ -2124,14 +2151,14 @@ Forze
 {tooltipText === 'adhuc' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbio     </></div>
+                <div className='analisi2'>   <> avverbio   </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+      Ancora
                 </div>
           
-Forze
+
        
               </>
             )}
@@ -2141,14 +2168,14 @@ Forze
 {tooltipText === 'trepidare' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> infinito  </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [trĕpĭdo], trĕpĭdas, trepidavi, trepidatum, trĕpĭdāre 
                 </div>
-          
-Forze
+          Trepidare
+
        
               </>
             )}
@@ -2157,14 +2184,14 @@ Forze
 {tooltipText === 'novo' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> aggettivo     </></div>
+                <div className='analisi2'>   <> attributo    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [novus], novă, novum
                 </div>
           
-Forze
+Nuovo
        
               </>
             )}
@@ -2241,13 +2268,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc. plu. Compl.ogg di complexus     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (ramus, rami)
                 </div>
           
-Forze
+Rami
        
               </>
             )}
@@ -2260,13 +2287,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc pl. Riferito a ramos. Predicativo dell’oggetto     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (membrum, membri)
                 </div>
           
-Forze
+Membra
        
               </>
             )}
@@ -2276,7 +2303,7 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> abl. Plur     </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
@@ -2408,14 +2435,14 @@ Forze
 {tooltipText === 'Cui' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> pronome     </></div>
+                <div className='analisi2'>   <> forma di dat.sing, del pronome relativo qui.      </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [qui], quae, quod
                 </div>
           
-Forze
+Quella
        
               </>
             )}
@@ -2425,13 +2452,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom sing     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [deus], dei
                 </div>
           
-Forze
+Il dio
        
               </>
             )}
@@ -2442,14 +2469,14 @@ Forze
 {tooltipText === 'at' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> congiunzione     </></div>
+                <div className='analisi2'>   <> cong avversativa     </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
                 </div>
           
-Forze
+Dal
        
               </>
             )}
@@ -2459,14 +2486,14 @@ Forze
 {tooltipText === 'quoniam' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> congiuntivo     </></div>
+                <div className='analisi2'>   <> cong subordinante causale     </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
                 </div>
           
-Forze
+Dal momento che
        
               </>
             )}
@@ -2477,10 +2504,10 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nominativo sing.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (coniunx, coniugis)
                 </div>
           
 Forze
@@ -2493,14 +2520,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> attributo     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                mĕum  [meum], mei
                 </div>
           
-Forze
-       
+Mia       
               </>
             )}
 
@@ -2508,14 +2534,13 @@ Forze
 {tooltipText === 'non' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbio     </></div>
+                <div className='analisi2'>   <> avverbio    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
-                </div>
+non                </div>
           
-Forze
+
        
               </>
             )}
@@ -2525,14 +2550,14 @@ Forze
 {tooltipText === 'potes' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> Ind. pres 2ps     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [possum], potes, potui, posse
                 </div>
           
-Forze
+Puoi
        
               </>
             )}
@@ -2541,14 +2566,14 @@ Forze
 {tooltipText === 'esse' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> infinito presente     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [sum], es, fui, esse
                 </div>
           
-Forze
+Essere
        
               </>
             )}
@@ -2559,13 +2584,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom a funzione predicativa    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (arbŏr, arboris)
                 </div>
           
-Forze
+Albero
        
               </>
             )}
@@ -2576,15 +2601,14 @@ Forze
 {tooltipText === 'eris' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> fut 2ps     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [sum], es, fui, esse
                 </div>
           
-Forze
-       
+Sarai       
               </>
             )}
 
@@ -2593,14 +2617,14 @@ Forze
 {tooltipText === 'certe' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbo     </></div>
+                <div className='analisi2'>   <> avverbo    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+  Certamente
                 </div>
           
-Forze
+
        
               </>
             )}
@@ -2612,14 +2636,15 @@ Forze
 {tooltipText === 'dixit' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo   </></div>
+                <div className='analisi2'>   <> perfetto, 3 p.sing.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [dīco], dīcis, dixi, dictum, dīcĕre
+
                 </div>
           
-Forze
+Disse
        
               </>
             )}
@@ -2645,14 +2670,14 @@ Forze
 {tooltipText === 'semper' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> avverbio     </></div>
+                <div className='analisi2'>   <> avverbio   </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+Sempre
                 </div>
           
-Forze
+
        
               </>
             )}
@@ -2662,14 +2687,14 @@ Forze
 {tooltipText === 'habebunt' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> fut. 3pp.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [hăbĕo], hăbes, habui, habitum, hăbēre
                 </div>
           
-Forze
+Avranno
        
               </>
             )}
@@ -2679,14 +2704,14 @@ Forze
 {tooltipText === 'te' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> pronome     </></div>
+                <div className='analisi2'>   <> compl.ogg. di habebunt. Acc sing     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [tuus], tua, tuum
                 </div>
           
-Forze
+Tuo
        
               </>
             )}
@@ -2696,13 +2721,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <>  nom,sing.      </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (comă, comae)
                 </div>
           
-Forze
+Chioma
        
               </>
             )}
@@ -2712,13 +2737,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc. sing. compl.ogg.     </></div>
                 </div>
                 <div className='bordosopra'>
        (vis, roboris) 
                 </div>
           
-Forze
+Te
        
               </>
             )}
@@ -2731,13 +2756,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom plur poetico     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (cithară, citharae)
                 </div>
           
-Forze
+Cetra
        
               </>
             )}
@@ -2748,11 +2773,11 @@ Forze
 {tooltipText === 'nostrae' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> pronome     </></div>
+                <div className='analisi2'>   <> pronome possesivo     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [noster], nostra, nostrum
                 </div>
           
 Forze
@@ -2772,7 +2797,7 @@ Forze
        (vis, roboris) 
                 </div>
           
-Forze
+Nostro
        
               </>
             )}
@@ -2818,14 +2843,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> dat plur.   </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (dux, ducis) 
                 </div>
           
-Forze
-       
+Ai condottieri       
               </>
             )}
 
@@ -2833,14 +2857,14 @@ Forze
 {tooltipText === 'Latiis' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> aggettivo     </></div>
+                <div className='analisi2'>   <> dat plur.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [Latius], Latiă, Latium
                 </div>
           
-Forze
+Ai latini
        
               </>
             )}
@@ -2850,15 +2874,14 @@ Forze
 {tooltipText === 'aderis' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <> fut. 2ps.     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [ădĕo], ădis, adii, aditum, ădire
                 </div>
           
-Forze
-       
+Starai vicino
               </>
             )}
 
@@ -2867,14 +2890,14 @@ Forze
 {tooltipText === 'cum' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> congiunzione     </></div>
+                <div className='analisi2'>   <> cong che introduce una temporale     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+Quando
                 </div>
           
-Forze
+
        
               </>
             )}
@@ -2884,13 +2907,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> abl. sing. femm.    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                laetus  [laetus], laeti
                 </div>
           
-Forze
+Lieta
        
               </>
             )}
@@ -2900,13 +2923,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> acc sing, att di canet     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (triumphus, triumphi)
                 </div>
           
-Forze
+Il trionfo
        
               </>
             )}
@@ -2917,13 +2940,13 @@ Forze
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi2'>   <> nom. sing    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                (vox, vocis)
                 </div>
           
-Forze
+Voce
        
               </>
             )}
@@ -2932,15 +2955,14 @@ Forze
 {tooltipText === 'canet' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> verbo     </></div>
+                <div className='analisi2'>   <>  fut, 3ps     </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [căno], cănis, cecini, cantum, cănĕre
                 </div>
           
-Forze
-       
+Canterà       
               </>
             )}
 
@@ -2949,14 +2971,14 @@ Forze
 {tooltipText === 'et' && (
               <>
               <div className='container2'>
-                <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> acc. sing. Compl.ogg di perde     </></div>
+                <div className='analisi'>   <> congiunzione     </></div>
+                <div className='analisi2'>   <> congiunzione coordinante    </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+e
                 </div>
           
-Forze
+
        
               </>
             )}

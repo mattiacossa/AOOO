@@ -12,7 +12,28 @@ import ReactFlow, {
 import 'reactflow/dist/style.css';
 
 const initialNodes = [
-  { id: '1', position: { x: 0, y: 0 }, data: {label: 'Expalluit illa (quella impallidì)' },      sourcePosition: 'right',targetPosition: 'bottom', },
+  {
+    id: '1',
+    type: 'group',
+    position: { x: 0, y: 0 },
+    style: {
+      width: 170,
+      height: 140,
+    },
+  },
+  {
+    id: '1-1',
+    type: 'input',
+    data: { label: 'Expalluit illa (quella impallidì)' },
+    position: { x: 0, y: 0 },
+    parentNode: '1',
+    extent: 'parent',
+  },
+
+
+
+
+
   { id: '2', position: { x: 0, y: 100 }, data: { label: 'viribus absumptis (esaurite le forze)' },  sourcePosition: 'top'},
   { id: '3', position: { x: 200, y: 0 }, data: { label: 'citaque victa labore fugae  (e vinta dalla fatica della fuga veloce disse)' },  targetPosition: 'left', type: 'selectorNode', },
   { id: '4', position: { x: 200, y: 120 }, data: { label: 'fer pater (portami aiuto, o padre)' } },
@@ -61,12 +82,12 @@ const initialNodes2 = [
 
 
 const initialNodes3 = [
-  { id: '1', position: { x: 0, y: 0 }, data: { label: 'Hanc quoque Phoebus amat (Febo ama anche questa)'} },
-  { id: '2', position: { x: 200, y: 0 }, data: { label: 'sentit adhuc trepidare novo sub cortice pectus, (e sente ancora trepidare il petto sotto la nuova corteccia)'} },
+  { id: '1', position: { x: 0, y: 250 }, data: { label: 'Hanc quoque Phoebus amat (Febo ama anche questa)'}, sourcePosition: 'right' },
+  { id: '2', position: { x: 200, y: 0 }, data: { label: 'sentit adhuc trepidare novo sub cortice pectus, (e sente ancora trepidare il petto sotto la nuova corteccia)'}, targetPosition: 'left'},
   { id: '3', position: { x: 200, y: 200 }, data: { label: 'positaque in stipite dextra (posata la destra sul tronco)' } },
-  { id: '4', position: { x: 400, y: 0 }, data: { label: 'complexusque suis ramos ut membra (e da dei baci al legno come membra)' } },
-  { id: '5', position: { x: 700, y: 0 }, data: { label: '(refugit tamen oscula lignum) tuttavia il legno rifiuta i baci' } },
-  { id: '6', position: { x: 700, y: 200 }, data: { label: '(lacertis oscula dat ligno) abbracciando con le sue braccia il tronco  ' } },
+  { id: '4', position: { x: 200, y: 300 }, data: { label: 'complexusque suis ramos ut membra (e da dei baci al legno come membra)' }, sourcePosition: 'right' , targetPosition: 'left'},
+  { id: '5', position: { x: 700, y: 300 }, data: { label: '(refugit tamen oscula lignum) tuttavia il legno rifiuta i baci' }, targetPosition: 'left' },
+  { id: '6', position: { x: 200, y: 500 }, data: { label: '(lacertis oscula dat ligno) abbracciando con le sue braccia il tronco  ' } },
 
 
 
@@ -78,7 +99,7 @@ const initialNodes3 = [
 
 
 const initialNodes4 = [
-  { id: '1', position: { x: 0, y: 0 }, data: { label: 'Cui deus dixit (E a quella il dio disse)'} },
+  { id: '1', position: { x: 0, y: 150 }, data: { label: 'Cui deus dixit (E a quella il dio disse)'},  sourcePosition: 'right' ,  },
   { id: '2', position: { x: 300, y: 0 }, data: { label: 'at quoniam coniunx mea non potes esse (dal momento che non puoi essere la mia sposa)'} },
   { id: '3', position: { x: 0, y: 200 }, data: { label: 'arbor eris certe (ebbene sarai almeno la mia pianta)' } },
   { id: '4', position: { x: 500, y: 0 }, data: { label: 'semper habebunt te coma, te citharae, te nostrae, laure, pharetrae (sempre avranno te, o alloro, la mia chioma, la mia cetra, la mia faretra)'} },
