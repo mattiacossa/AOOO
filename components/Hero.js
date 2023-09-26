@@ -385,7 +385,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('crescunt:')}
+  onMouseEnter={() => handleTooltipHover('crescunt')}
   onMouseLeave={handleTooltipLeave}
 >
   crescunt:
@@ -874,7 +874,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('coma,')}
+  onMouseEnter={() => handleTooltipHover('coma')}
   onMouseLeave={handleTooltipLeave}
 >
   coma,
@@ -906,7 +906,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('nostrae,')}
+  onMouseEnter={() => handleTooltipHover('nostrae')}
   onMouseLeave={handleTooltipLeave}
 >
   nostrae,
@@ -914,7 +914,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('laure,')}
+  onMouseEnter={() => handleTooltipHover('laure')}
   onMouseLeave={handleTooltipLeave}
 >
   laure,
@@ -922,7 +922,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('pharetrae;')}
+  onMouseEnter={() => handleTooltipHover('pharetrae')}
   onMouseLeave={handleTooltipLeave}
 >
   pharetrae;
@@ -954,7 +954,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('aderis,')}
+  onMouseEnter={() => handleTooltipHover('aderis')}
   onMouseLeave={handleTooltipLeave}
 >
   aderis,
@@ -1034,7 +1034,7 @@ const Hero = () => {
 
 <span
   style={tooltipStyle}
-  onMouseEnter={() => handleTooltipHover('pompas».')}
+  onMouseEnter={() => handleTooltipHover('pompas')}
   onMouseLeave={handleTooltipLeave}
 >
   pompas».
@@ -1636,17 +1636,17 @@ Si fascia
 
 
 
-{tooltipText === 'tenui libro' && (
+{tooltipText === 'tenui' && (
               <>
               <div className='container2'>
                 <div className='analisi'>   <> sostantivo     </></div>
-                <div className='analisi2'>   <> dativo retto da cinguntur, tenui è attrib. di libro    </></div>
+                <div className='analisi2'>   <> dativo retto da cinguntur  </></div>
                 </div>
                 <div className='bordosopra'>
-       (vis, roboris) 
+                [tenuis], tenuis, tenue
                 </div>
           
-Forze
+Sottile
        
               </>
             )}
