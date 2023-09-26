@@ -12,28 +12,7 @@ import ReactFlow, {
 import 'reactflow/dist/style.css';
 
 const initialNodes = [
-  {
-    id: '1',
-    type: 'group',
-    position: { x: 0, y: 0 },
-    style: {
-      width: 170,
-      height: 140,
-    },
-  },
-  {
-    id: '1-1',
-    type: 'input',
-    data: { label: 'Expalluit illa (quella impallidì)' },
-    position: { x: 0, y: 0 },
-    parentNode: '1',
-    extent: 'parent',
-  },
-
-
-
-
-
+  { id: '1', position: { x: 0, y: 0 }, data: {label: 'Expalluit illa (quella impallidì)' },      sourcePosition: 'right',targetPosition: 'bottom', },
   { id: '2', position: { x: 0, y: 100 }, data: { label: 'viribus absumptis (esaurite le forze)' },  sourcePosition: 'top'},
   { id: '3', position: { x: 200, y: 0 }, data: { label: 'citaque victa labore fugae  (e vinta dalla fatica della fuga veloce disse)' },  targetPosition: 'left', type: 'selectorNode', },
   { id: '4', position: { x: 200, y: 120 }, data: { label: 'fer pater (portami aiuto, o padre)' } },
